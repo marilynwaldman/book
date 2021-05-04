@@ -8,4 +8,13 @@
 title                       : my-book  # The title of the book. Will be placed in the left navbar.
 author                      : Marilyn Waldman  # The author of the book
 copyright                   : "2021"  # Copyright year to be placed in the footer
-logo                        : logo.png  # A path to the book logo
+logo                        : logo.png  # A path to the book logo  
+
+# Information about where the book exists on the web
+repository:
+  url                       : https://github.com/marilynwaldman/book 
+ 
+  
+launch_buttons:
+  colab_url: "https://colab.research.google.com" 
+  
