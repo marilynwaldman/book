@@ -2,7 +2,23 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
-- file: content
-  sections:
-    - file: markdown
-    - file: notebooks
+
+- part: Maps
+  chapters:
+  - file: notebooks
+
+
+- part: Graphs
+  chapters:
+  - file: graphs/example
+
+- part: Injection Wells
+  chapters:
+  - file: oilAndGas/California
+  - file: oilAndGas/Colorado
+  - file: oilAndGas/NavajoNation
+  - file: oilAndGas/Texas
+  
+
+
+
