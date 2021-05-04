@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navajo Nation &#8212; my-book</title>
+    <title>Example Graph &#8212; my-book</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -57,8 +57,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Texas" href="Texas.html" />
-    <link rel="prev" title="Colorado" href="Colorado.html" />
+    <link rel="next" title="California" href="../oilAndGas/California.html" />
+    <link rel="prev" title="Content with notebooks" href="../notebooks.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -112,9 +112,9 @@
   Graphs
  </span>
 </p>
-<ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="../graphs/example.html">
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Example Graph
   </a>
  </li>
@@ -124,24 +124,24 @@
   Injection Wells
  </span>
 </p>
-<ul class="current nav sidenav_l1">
+<ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="California.html">
+  <a class="reference internal" href="../oilAndGas/California.html">
    California
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Colorado.html">
+  <a class="reference internal" href="../oilAndGas/Colorado.html">
    Colorado
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../oilAndGas/NavajoNation.html">
    Navajo Nation
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Texas.html">
+  <a class="reference internal" href="../oilAndGas/Texas.html">
    Texas
   </a>
  </li>
@@ -185,9 +185,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/oilAndGas/NavajoNation.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/graphs/example.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -205,6 +205,23 @@
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/graphs/example.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
@@ -218,8 +235,19 @@
         
               <div>
                 
-  <div class="section" id="navajo-nation">
-<h1>Navajo Nation<a class="headerlink" href="#navajo-nation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="example-graph">
+<h1>Example Graph<a class="headerlink" href="#example-graph" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -235,7 +263,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./oilAndGas"
+            path: "./graphs"
         },
         predefinedOutput: true
     }
@@ -247,8 +275,8 @@
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Colorado.html" title="previous page">Colorado</a>
-    <a class='right-next' id="next-link" href="Texas.html" title="next page">Texas</a>
+    <a class='left-prev' id="prev-link" href="../notebooks.html" title="previous page">Content with notebooks</a>
+    <a class='right-next' id="next-link" href="../oilAndGas/California.html" title="next page">California</a>
 
         </div>
         
