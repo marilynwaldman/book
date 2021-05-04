@@ -13,6 +13,8 @@ logo                        : logo.png  # A path to the book logo
 # Information about where the book exists on the web
 repository:
   url                       : https://github.com/marilynwaldman/book 
+  path_to_book              : my_book/my_book  
+  branch                    : master 
  
   
 launch_buttons:

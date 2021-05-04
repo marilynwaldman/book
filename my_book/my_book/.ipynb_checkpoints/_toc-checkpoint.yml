@@ -5,7 +5,7 @@
 
 - part: Maps
   chapters:
-  - file: notebooks
+  - file: maps/PyDataStack
 
 
 - part: Graphs
