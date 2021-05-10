@@ -29,7 +29,7 @@ https://cogcc.state.co.us/DAD.html
 
 ### Map of Colorado Disposal Wells
 
-[](../assets/images/ColoradoDisposalWells.png)
+![](../assets/images/ColoradoDisposalWells.png)
 
 
 
