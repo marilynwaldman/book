@@ -2,7 +2,7 @@
 
 
 
-###. Fiscal Year 2020 Annual Report
+### Fiscal Year 2020 Annual Report
 
 https://cogcc.state.co.us/documents/library/Technical/Orphan/Orphaned_Well_Program_FY2020_Annual_Report_20200901.pdf
 
@@ -17,3 +17,16 @@ period from July 1, 2019 through June 30, 2020. Executive Order D 2018-12 was si
 July 18, 2018 to improve the environment, public health, and safety of Coloradans by
 directing the COGCC to plug, remediate, and reclaim orphaned wells and sites and prevent
 future orphaned wells and sites.
+
+### Colorado Oil and Gas Maps
+
+https://cogccmap.state.co.us/cogcc_gis_online/
+
+
+### Colorado Pending Permits
+
+https://cogcc.state.co.us/DAD.html
+
+
+
+
