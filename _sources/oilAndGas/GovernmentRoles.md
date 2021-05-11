@@ -1,4 +1,4 @@
-# Governmental Roles and Responsibilities Related to Underground Injection and Induced Seismicity
+# Governmental Roles and Responsibilities 
 
 ## Governmental Roles and Responsibilities Related to Underground Injection and Induced Seismicity
 
