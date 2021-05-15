@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
     <title>Geographic Data Science with PySAL and the PyData Stack &#8212; my-book</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
@@ -25,8 +26,8 @@
     href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -36,20 +37,17 @@
     
   <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
 
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -57,7 +55,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Example Graph" href="../graphs/example.html" />
+    <link rel="next" title="KGLAB - Graph-Based Data Science" href="../graphs/kglab.html" />
     <link rel="prev" title="Welcome to my Jupyter Book" href="../intro.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -114,6 +112,11 @@
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
+  <a class="reference internal" href="../graphs/kglab.html">
+   KGLAB - Graph-Based Data Science
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="../graphs/example.html">
    Example Graph
   </a>
@@ -125,6 +128,11 @@
  </span>
 </p>
 <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../oilAndGas/GovernmentRoles.html">
+   Governmental Roles
+  </a>
+ </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../oilAndGas/California.html">
    California
@@ -141,8 +149,18 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="../oilAndGas/NewMexico.html">
+   New Mexico
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="../oilAndGas/Texas.html">
    Texas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../oilAndGas/Utah.html">
+   Utah
   </a>
  </li>
 </ul>
@@ -233,15 +251,15 @@
         
               <div>
                 
-  <div class="section" id="geographic-data-science-with-pysal-and-the-pydata-stack">
+  <section id="geographic-data-science-with-pysal-and-the-pydata-stack">
 <h1>Geographic Data Science with PySAL and the PyData Stack<a class="headerlink" href="#geographic-data-science-with-pysal-and-the-pydata-stack" title="Permalink to this headline">¶</a></h1>
 <p>Sergio J. Rey, Dani Arribas-Bel, Levi J. Wolf</p>
-<div class="section" id="introduction">
+<section id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>This book provides the tools, the methods, and the theory to meet the challenges of contemporary data science applied to geographic problems and data. Social media, new forms of data, and new computational techniques are revolutionizing social science. In the new world of pervasive, large, frequent, and rapid data, we have new opportunities to understand and analyze the role of geography in everyday life. The book provides the first comprehensive curriculum in geographic data science.</p>
 <p><a class="reference external" href="https://geographicdata.science/book/intro.html">https://geographicdata.science/book/intro.html</a></p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -269,7 +287,7 @@
         <div class='prev-next-bottom'>
             
     <a class='left-prev' id="prev-link" href="../intro.html" title="previous page">Welcome to my Jupyter Book</a>
-    <a class='right-next' id="next-link" href="../graphs/example.html" title="next page">Example Graph</a>
+    <a class='right-next' id="next-link" href="../graphs/kglab.html" title="next page">KGLAB - Graph-Based Data Science</a>
 
         </div>
         

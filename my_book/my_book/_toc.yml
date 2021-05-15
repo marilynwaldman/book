@@ -10,14 +10,18 @@
 
 - part: Graphs
   chapters:
+  - file: graphs/kglab
   - file: graphs/example
 
 - part: Injection Wells
   chapters:
+  - file: oilAndGas/GovernmentRoles
   - file: oilAndGas/California
   - file: oilAndGas/Colorado
   - file: oilAndGas/NavajoNation
+  - file: oilAndGas/NewMexico
   - file: oilAndGas/Texas
+  - file: oilAndGas/Utah
   
 
 
